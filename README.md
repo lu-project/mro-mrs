@@ -60,6 +60,9 @@ Reference paper :
 
 We have forked the kernel-runner and kernels repositories from Lablup: [lu-project/backend.ai-kernel-runner](https://github.com/lu-project/backend.ai-kernel-runner), [lu-project/backend.ai-kernels](https://github.com/lu-project/backend.ai-kernels).
 
+* MRS: Built a kernel runner module as an adaptor to the MRS REST API
+* MRO: Baked a docker image
+
 The changes are merged back via pull requests ([lablup/backend.ai-kernel-runner#4](https://github.com/lablup/backend.ai-kernel-runner/pull/4)).
 
-Lablup is making necessary changes to the Backend.AI manager and agent to pass environment variables as creation configs when creating new computation kernels.
+Lablup is making necessary changes to the Backend.AI manager and agent to pass environment variables (such as API credentials including `MRS_ENDPOINT`, `MRS_USERNAME`, and `MRS_PASSWORD`) as creation configs when creating new computation kernels.
