@@ -54,5 +54,11 @@ Now you can access to 12800 port - endpoint of R server
 Reference paper :  
 [APIs for operationalizing your models and analytics with Machine Learning Server](https://docs.microsoft.com/en-us/machine-learning-server/operationalize/concept-api)  
 [Machine Learning Server swagger specification](https://microsoft.github.io/deployr-api-docs/)  
-[REST Calls using PostMan for R server Operationalization](https://blogs.msdn.microsoft.com/mlserver/2017/02/24/rest-calls-using-postman-for-r-server-o16n/)  
+[REST Calls using PostMan for R server Operationalization](https://blogs.msdn.microsoft.com/mlserver/2017/02/24/rest-calls-using-postman-for-r-server-o16n/)
+
+## Integration with Backend.AI
+
+We have forked the kernel-runner and kernels repositories from Lablup: [lu-project/backend.ai-kernel-runner](https://github.com/lu-project/backend.ai-kernel-runner), [lu-project/backend.ai-kernels](https://github.com/lu-project/backend.ai-kernels).
+
+The changes are merged back via pull requests ([lablup/backend.ai-kernel-runner#4](https://github.com/lablup/backend.ai-kernel-runner/pull/4)).
 
