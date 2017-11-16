@@ -62,3 +62,4 @@ We have forked the kernel-runner and kernels repositories from Lablup: [lu-proje
 
 The changes are merged back via pull requests ([lablup/backend.ai-kernel-runner#4](https://github.com/lablup/backend.ai-kernel-runner/pull/4)).
 
+Lablup is making necessary changes to the Backend.AI manager and agent to pass environment variables as creation configs when creating new computation kernels.
